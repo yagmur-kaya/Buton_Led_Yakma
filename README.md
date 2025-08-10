@@ -17,3 +17,4 @@ Devreyi breadboard üzerine kurarak gerekli tüm bağlantıları yapın. LED, bu
 ## Uygulama Aşaması
 Devreyi kurduktan sonra Arduino kartınızı USB ile bilgisayara bağlayın.Arduino kodunu yükleyin.Yükleme tamamlandıktan sonra Arduino Ide'sini kapatın.COM port numarasını kendi kartınıza uygun şekilde ayarladıktan sonra,Python kodunu çalıştırın.
 # Devre Şeması
+![Buton ve LED Devre Şeması](images/buton_led_semasi.png)
