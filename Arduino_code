@@ -1,0 +1,38 @@
+#define Led 10
+#define Buton 8 
+int buton_durumu=0;
+void setup() {
+  pinMode(Led,OUTPUT);
+  pinMode(Buton,INPUT);
+  Serial.begin(9600);
+  Serial.println("Arduino butonla led kontrol");
+
+}
+
+void loop() {
+  buton_durumu=digitalRead(Buton);
+if (buton_durumu==HIGH){
+    Serial.println(1);
+    delay(50);
+    while(digitalRead(Buton)==HIGH);
+  }
+else{
+   Serial.println(0);
+   if (Serial.available()>0){
+    char komut= Serial.read();
+    if (komut=='1') {
+      digitalWrite(Led,HIGH);
+       Serial.println("Arduino:Led yandı");
+    } else if (komut=='0'){
+      digitalWrite(Led,LOW);
+       Serial.println("Arduino:Led söndü");
+    }
+   }
+   if (buton_durumu==HIGH){
+    Serial.println(1);
+    delay(50);
+    while(digitalRead(Buton)==HIGH);
+   }
+}
+  delay(50);
+}
