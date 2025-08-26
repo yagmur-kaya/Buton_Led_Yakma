@@ -1,3 +1,5 @@
+[🇹🇷 Türkçe](README.md) | [🇬🇧 English](README_EN.md)
+
 # Python and Arduino Button-Controlled LED
 ## Project Overview
 This project creates a system where pressing a physical button communicates with a Python-based application via a serial port to control the state of an LED. It combines Arduino's ability to collect sensor data with Python's control and logic-processing power. This approach demonstrates the principles of basic electronics and software integration in a practical way.
