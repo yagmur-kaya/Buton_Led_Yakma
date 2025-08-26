@@ -1,3 +1,5 @@
+[🇹🇷 Türkçe](README.md) | [🇬🇧 English](README_EN.md)
+
 # Python ve Arduino ile Butonla LED Kontrolü
 ## Proje Özeti:
 Bu proje, bir fiziksel butona basıldığında seri port üzerinden Python tabanlı bir yazılım ile iletişime geçerek bir LED'in durumunu kontrol eden bir sistemdir. Arduino'nun sensör verisi toplama yetenekleri ile Python'un kontrol ve mantık işleme gücünü bir araya getirir. Bu sayede, temel elektronik ve yazılım entegrasyonu prensiplerini uygulamalı olarak gösterir.
